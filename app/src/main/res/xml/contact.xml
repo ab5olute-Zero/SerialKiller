@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="contact_email"
+        android:icon="@drawable/ic_email_white_24dp"
+        android:title="@string/contact_email_title"
+        android:summary="@string/contact_email_summary"/>
+    <Preference
+        android:key="contact_facebook"
+        android:icon="@drawable/ic_person_add_white_24dp"
+        android:title="@string/contact_facebook_title"
+        android:summary="@string/contact_facebook_summary"/>
+    <Preference
+        android:key="contact_telegram"
+        android:icon="@drawable/ic_question_answer_white_24dp"
+        android:title="@string/contact_telegram_title"
+        android:summary="@string/contact_telegram_summary"/>
+</PreferenceScreen>

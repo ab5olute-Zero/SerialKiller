@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bar_setting"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/action_bar_buttons_setting"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_bar_contact"
+        android:title="@string/action_bar_buttons_contact"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_bar_about"
+        android:title="@string/action_bar_buttons_about"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_bar_credits"
+        android:title="@string/action_bar_buttons_credits"
+        app:showAsAction="never"/>
+</menu>

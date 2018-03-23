@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="about_title">
+    <Preference
+        android:key="app_update"
+        android:title="@string/app_update"/>
+    <Preference
+        android:key="app_version"
+        android:title="@string/app_version"
+        android:summary="@string/version_summary"/>
+</PreferenceScreen>
